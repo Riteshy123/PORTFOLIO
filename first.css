@@ -1,0 +1,383 @@
+
+ body{
+    height: auto;
+    width:100%;
+ }
+nav{
+    background-color: rgb(222, 209, 193);
+}
+#icon {
+    width:30px;
+    cursor:pointer;
+    border-color: black;
+    
+}
+
+#frontpg{
+    width: 100%;
+    height:auto;
+    display:flex;
+   /* border: 2px solid rgb(232, 153, 153);*/
+
+}
+.left-section{
+    width: 40%;
+    height:auto;
+    margin-top:50px;
+ background-color: rgb(52, 51, 51);
+  
+
+}
+
+.left-section h1{
+    text-align: center;
+    
+    color: rgb(255, 140, 127);
+}
+.left-section h1:hover{
+    color:blue;
+}
+.left-section #name{
+    text-align: center;
+    margin-top:100px;
+    color:rgb(255, 140, 0);
+    animation: text 3s linear infinite alternate;
+}
+@keyframes text{
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1.5);
+    }
+}
+
+.right-section{
+    width:70%;
+    height:auto;
+    margin-top:5px;
+  /*  background-color: rgb(224, 211, 195);*/
+  background-color: rgb(52, 51, 51);
+}
+.about{
+    color:white;
+}
+.about a{
+    text-decoration: none;
+}
+.left-section  li{
+    list-style:none;
+    padding:5px; 
+    margin-left:5px;
+    margin-top: 15px;
+    text-align: center;
+    color:white;
+}
+li a{
+    color:white;
+    text-decoration : none;
+    
+}
+.personal-info li  i{
+    color:white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+
+.stack{
+    margin-left:20px;
+}
+.about{
+    font-size: large;
+    width:60%;
+    height:auto;
+    margin-top:150px;
+    margin-left:30px;
+}
+.about h5{
+     color:rgb(255, 140, 0);
+}
+
+.about h1{
+    color:rgb(249, 132, 152);
+}
+
+.social-icons{
+    align-items: center;
+}
+.social-icons li{
+    list-style: none;
+    display: inline-block;
+    margin-left:-120px;
+    
+    
+}
+.social-icons li a i {
+    /*color: red;*/
+    padding: 10px;
+    font-size: 1rem;
+    
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px blue;
+}
+
+
+@keyframes anims{
+    from{
+        transform: scale(1.5rem);
+    }
+    to{
+        transform: scale(2.1rem);
+    }
+}
+.personal-info{
+    margin-top: 50px;
+}
+
+
+.right-side{
+    width:20%;
+    height:auto;
+    margin-top:5px;
+  /*  background-color: rgb(224, 211, 195);*/
+  background-color: rgb(52, 51, 51);
+    
+}
+.right-side img{
+    width: 200px;
+    height:200px;
+    margin-right:50px;
+    margin-top:160px;
+   
+   
+}
+#ritesh{
+    border-radius: 10%;
+    border: 3px solid rgb(255,140,45);
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+    
+}
+
+@media only screen and (max-width: 1000px) {
+    
+    .left-section{
+        height:auto;
+        width:100%;
+    }
+    .personal-info li{
+        margin-right:50px;
+    }
+    .about{
+        margin-top:50px;
+    }
+    .about {
+        height:auto;
+        width:100%;
+    }
+    .right-side img{
+        align-items: center;
+        width:100px;
+        height:100px;
+        margin-left: 50px;
+        margin-top:50px;
+        
+    }
+    .left-section li{
+        left:5%;
+    }
+    .left-section img{
+        align-items: center;
+    }
+    
+    
+}
+
+@media only screen and (max-width:760px){
+    div{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .right-section{
+        width:auto;
+        height:auto;
+    }
+    .about {
+        height:auto;
+        width:100%;
+    }
+    .right-side{
+        width:auto;
+        height:auto;
+    }
+    img{
+        text-align: center;
+        height:150px;
+        width:150px;
+
+    }
+    .left-section img{
+        align-items: center;
+       
+    }
+    .img-thumbnail{
+        align-items: center;
+        width: 70px;
+        height: 0px;
+        margin-top: 5px;
+    }
+    
+    .social-icons li{
+        margin-left: -100px;
+    }
+    .stripe{
+        display: inline-block;
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media only screen and (max-width:600px){
+    div{
+        display:flex;
+        display: block;
+        flex-direction: column;
+    }
+    .right-section{
+        width:auto;
+        height:auto;
+    }
+    .right-side{
+        width:auto;
+        height:auto;
+    }
+    .social-icons li{
+        margin-left: -100px;
+    }
+}
+
+@media only screen and (max-width:600px){
+    
+    .about{
+        height: auto;
+        width:auto
+    }
+    img{
+        align-items: center;
+    }
+}
+@media only screen and (max-width:600px){
+   .right-side img{
+        align-items: center;
+        height:150px;
+        width:200px
+        
+    }
+    button{
+        align-items: center;
+        margin-bottom: 5px;
+        height:40px;
+        color:red;
+    }
+    .img-thumbnail{
+        align-items: center;
+        width: 70px;
+        height: 70px;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width:360px){
+    #image{
+        align-items: center;
+        margin-left: 200px;
+    }
+    .img-thumbnail{
+        align-items: center;
+        width: 40;
+        height: 40;
+        margin-top: 5px;
+    }
+    #navbar-brand{
+        margin-left: 2px;
+    }
+    .right-section{
+        background-color: azure;
+    }
+    .navbar-toggler{
+        justify-content: right;
+      
+    }
+    .navbar-brand{
+        justify-content: left;
+    }
+    .social-icons li{
+        margin-left: -50px;
+    }
+}
+btn {
+    background-color: blueviolet; 
+}
+
+.right-side a{
+    margin-top: 5px;
+}
+ .btn a{
+    text-decoration: none;
+    
+ }
+ .btn{
+    border: 2px solid rgb(255, 140, 0);
+ }
+
+.stripe{
+    width:20px;
+    height:80px;
+    margin-left:30px;
+    margin-top:40px;
+    background-color: rgb(255,140,45);
+    display: flex;
+    display: inline-block;
+    justify-content: space-between;
+}
+#strip1{animation: strip 3s linear infinite alternate;
+}
+@keyframes strip{
+    from{
+        transform: translateY(0.5rem);
+    }
+    to{
+        transform: translateY(2.0rem);
+    }
+}
+#strip2{animation: strip 2s linear infinite alternate;
+}
+@keyframes strip{
+    from{
+        transform: translateY(0.5rem);
+    }
+    to{
+        transform: translateY(2.0rem);
+    }
+}
+#strip3{animation: strip 3s linear infinite alternate;
+}
+@keyframes strip{
+    from{
+        transform: translateY(0.5rem);
+    }
+    to{
+        transform: translateY(2.0rem);
+    }
+}
+
+.role
+{
+    color: blue;
+    font-weight: bold;
+}

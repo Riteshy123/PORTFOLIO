@@ -56,8 +56,8 @@ nav{
     width:70%;
     height:auto;
     margin-top:5px;
-  /*  background-color: rgb(224, 211, 195);*/
-  background-color: rgb(52, 51, 51);
+   background-color: rgb(224, 211, 195);
+ /* background-color: rgb(52, 51, 51); */
 }
 .about{
     color:white;
@@ -145,8 +145,8 @@ li a{
     width:20%;
     height:auto;
     margin-top:5px;
-  /*  background-color: rgb(224, 211, 195);*/
-  background-color: rgb(52, 51, 51);
+   background-color: rgb(224, 211, 195);
+/*  background-color: rgb(52, 51, 51);  */
     
 }
 .right-side img{
